@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".list-item").click(function() {
+  $(".flash").click(function() {
     $(".definition").toggle();
-  })   
+  });
 });

@@ -1,9 +1,14 @@
-.list-item {
+.flash {
   cursor: pointer;
   color: #0088cc;
 }
 
-.list-item:hover {
+.flash:hover {
   text-decoration: underline;
 }
 
+.definition {
+  color: #07031a;
+  cursor: default;
+  display: none;
+}

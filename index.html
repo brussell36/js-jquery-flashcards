@@ -13,98 +13,150 @@
   <div class="container">
     <h1>JS & jQuery Flashcards</h1>
     <div id="flashcards">
-      <ul>
-        <li class="list-item">Javascript (JS)
-          <ul>
-            <li class="definition">JavaScript. JavaScript is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites. ... Like server-side scripting languages, such as PHP and ASP, JavaScript code can be inserted anywhere within the HTML of a webpage.</li>
-          </ul>
-        </li>
-        <li class="list-item">Operators
-          <ul>
-            <li class="definition">Operators in JavaScript are very similar to operators that appear in other programming languages. The definition of an operator is a symbol that is used to perform an operation. Most often these operations are arithmetic (addition, subtraction, etc), but not always.</li>
-          </ul>
-        </li>
-        <li class="list-item">Variables
-          <ul>
-            <li class="definition">Variable means anything that can vary. JavaScript includes variables which hold the data value and it can be changed anytime. JavaScript uses reserved keyword var to declare a variable. A variable must have a unique name. ... In the above example, we have declared three variables using var keyword: one, two and three.</li>
-          </ul>
-        </li>
-        <li class="list-item">Variable naming conventions
-          <ul>
-            <li class="definition">You should not use any of the JavaScript reserved keywords as a variable name. JavaScript variable names should not start with a numeral (0-9). They must begin with a letter or an underscore character. JavaScript variable names are case-sensitive.</li>
-          </ul>
-        </li>
-        <li class="list-item">Functions
-          <ul>
-            <li class="definition">A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it. See also the exhaustive reference chapter about JavaScript functions to get to know the details.</li>
-          </ul>
-        </li>
-        <li class="list-item">Methods
-          <ul>
-            <li class="definition">JavaScript Methods. JavaScript methods are actions that can be performed on objects. A JavaScript method is a property containing a function definition. </li>
-          </ul>
-        </li>
-        <li class="list-item">Arguments
-          <ul>
-            <li class="definition">Arguments is an Array-like object accessible inside functions that contains the values of the arguments passed to that function.</li>
-          </ul>
-        </li>
-        <li class="list-item">Parameters
-          <ul>
-            <li class="definition">A parameter is a named variable passed into a function. Parameter variables are used to import arguments into functions.</li>
-          </ul>
-        </li>
-        <li class="list-item">Return
-          <ul>
-            <li class="definition">First of all, the javascript return is a statement. ... The return statement ends the execution of a function in a JS environment and its used to specify a value (object, array, variables) to be returned to the function's caller scope.</li>
-          </ul>
-        </li>
-        <li class="list-item">Chaining methods
-          <ul>
-            <li class="definition">Chaining Methods, also known as Cascading, refers to repeatedly calling one method after another on an object, in one continuous line of code. This technique abounds in jQuery and other JavaScript libraries and it is even common in some JavaScript native methods.</li>
-          </ul>
-        </li>
-        <li class="list-item">Strings
-          <ul>
-            <li class="definition">A string is a sequence of one or more characters that may consist of letters, numbers, or symbols. Strings in JavaScript are primitive data types and immutable, which means they are unchanging.</li>
-          </ul>
-        </li>
-        <li class="list-item">Booleans
-          <ul>
-            <li class="definition"> Boolean is a datatype that returns either of two values i.e. true or false. In JavaScript, boolean is used as a function to get the value of a variable, object, conditions, expressions etc. in terms of true or false.</li>
-          </ul>
-        </li>
-        <li class="list-item">NaN
-          <ul>
-            <li class="definition">The NaN property represents "Not-a-Number" value. This property indicates that a value is not a legal number. The NaN property is the same as the Number.</li>
-          </ul>
-        </li>
-        <li class="list-item">Null
-          <ul>
-            <li class="definition">'Null' is a keyword in JavaScript that signifies 'no value' or nonexistence of any value. If you wish to shred a variable off its assigned value, you can simply assign 'null' to it. Besides this, like any other object, it is never implicitly assigned to a variable by JavaScript.</li>
-          </ul>
-        </li>
-        <li class="list-item">Alert
-          <ul>
-            <li class="definition">The Window.alert() method displays an alert dialog with the optional specified content and an OK button.</li>
-          </ul>
-        </li>
-        <li class="list-item">Comments
-          <ul>
-            <li class="definition">Comments in JavaScript are used to explain the code and make the program more readable for developers. ... There are single-line comments (which comment out one line or a part of one line) and multi-line comments (which comment out a block of code). Multi-line comments are more often used for formal documentations.</li>
-          </ul>
-        </li>
-        <li class="list-item">jQuery
-          <ul>
-            <li class="definition">jQuery is a JavaScript library that allows web developers to add extra functionality to their websites. It is open source and provided for free under the MIT license. In recent years, jQuery has become the most popular JavaScript library used in web development.</li>
-          </ul>
-        </li>
-        <li class="list-item">Attibutes
-          <ul>
-            <li class="definition">All properties have a name. In addition they also have a value. The value is one of the property's attributes. ... In JavaScript, all attributes can be read, but only the value attribute can be changed (and only if the property is writable).</li>
-          </ul>
-        </li>
-      </ul>
+      <div class="panel panel-primary">
+        <div class="flash panel-heading">
+          <h3 class="panel-title">Javascript (JS)</h3>
+        </div>
+        <div class="panel-body">
+          <p class="definition">JavaScript. JavaScript is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites. ... Like server-side scripting languages, such as PHP and ASP, JavaScript code can be inserted anywhere within the HTML of a webpage.</p>
+        </div>        
+      </div>
+      <div class="panel panel-primary">
+        <div class="flash panel-heading">
+          <h3 class="panel-title">Operators</h3>          
+        </div>
+        <div class="panel-body">
+          <p class="definition">Operators in JavaScript are very similar to operators that appear in other programming languages. The definition of an operator is a symbol that is used to perform an operation. Most often these operations are arithmetic (addition, subtraction, etc), but not always.</p>
+        </div>
+      </div>
+      <div class="panel panel-primary">
+        <div class="flash panel-heading">
+          <h3 class="panel-title">Variables</h3>
+        </div>
+        <div class="panel-body">
+          <p class="definition">Variable means anything that can vary. JavaScript includes variables which hold the data value and it can be changed anytime. JavaScript uses reserved keyword var to declare a variable. A variable must have a unique name. ... In the above example, we have declared three variables using var keyword: one, two and three.</p>
+        </div>
+      </div>
+      <div class="panel panel-primary">
+        <div class="flash panel-heading">
+          <h3 class="panel-title">Variable naming conventions</h3>
+        </div>
+        <div class="panel-body">
+          <p class="definition">You should not use any of the JavaScript reserved keywords as a variable name. JavaScript variable names should not start with a numeral (0-9). They must begin with a letter or an underscore character. JavaScript variable names are case-sensitive.</p>
+        </div>
+      </div>
+      <div class="panel panel-primary">
+        <div class="flash panel-heading">
+          <h3 class="panel-title">Functions</h3>
+        </div>
+        <div class="panel-body">
+          <p class="definition">A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it. See also the exhaustive reference chapter about JavaScript functions to get to know the details.</p>
+        </div>
+      </div>
+      <div class="panel panel-primary">
+        <div class="flash panel-heading">
+          <h3 class="panel-title">Methods</h3>
+        </div>
+        <div class="panel-body">
+          <p class="definition">JavaScript Methods. JavaScript methods are actions that can be performed on objects. A JavaScript method is a property containing a function definition.</p>
+        </div>
+      </div>
+      <div class="panel panel-primary">
+        <div class="flash panel-heading">
+          <h3 class="panel-title">Arguments</h3>
+        </div>
+        <div class="panel-body">
+          <p class="definition">Arguments is an Array-like object accessible inside functions that contains the values of the arguments passed to that function.</p>
+        </div>
+      </div>
+      <div class="panel panel-primary">
+        <div class="flash panel-heading">
+          <h3 class="panel-title">Parameters</h3>
+        </div>
+        <div class="panel-body">
+          <p class="definition">A parameter is a named variable passed into a function. Parameter variables are used to import arguments into functions.</p>
+        </div>
+      </div>
+      <div class="panel panel-primary">
+        <div class="flash panel-heading">
+          <h3 class="panel-title">Return</h3>
+        </div>
+        <div class="panel-body">
+          <p class="definition">First of all, the javascript return is a statement. ... The return statement ends the execution of a function in a JS environment and its used to specify a value (object, array, variables) to be returned to the function's caller scope.</p>
+        </div>
+      </div>
+      <div class="panel panel-primary">
+        <div class="flash panel-heading">
+          <h3 class="panel-title">Chaining methods</h3>
+        </div>
+        <div class="panel-body">
+          <p class="definition">Chaining Methods, also known as Cascading, refers to repeatedly calling one method after another on an object, in one continuous line of code. This technique abounds in jQuery and other JavaScript libraries and it is even common in some JavaScript native methods.</p>
+        </div>
+      </div>
+      <div class="panel panel-primary">
+        <div class="flash panel-heading">
+          <h3 class="panel-title">Strings</h3>
+        </div>
+        <div class="panel-body">
+          <p class="definition">A string is a sequence of one or more characters that may consist of letters, numbers, or symbols. Strings in JavaScript are primitive data types and immutable, which means they are unchanging.</p>
+        </div>
+      </div>
+      <div class="panel panel-primary">
+        <div class="flash panel-heading">
+          <h3 class="panel-title">Booleans</h3>
+        </div>
+        <div class="panel-body">
+          <p class="definition">Boolean is a datatype that returns either of two values i.e. true or false. In JavaScript, boolean is used as a function to get the value of a variable, object, conditions, expressions etc. in terms of true or false.</p>
+        </div>
+      </div>
+      <div class="panel panel-primary">
+        <div class="flash panel-heading">
+          <h3 class="panel-title">NaN</h3>
+        </div>
+        <div class="panel-body">
+          <p class="definition">The NaN property represents "Not-a-Number" value. This property indicates that a value is not a legal number. The NaN property is the same as the Number.</p>
+        </div>
+      </div>
+      <div class="panel panel-primary">
+        <div class="flash panel-heading">
+          <h3 class="panel-title">Null</h3>
+        </div>
+        <div class="panel-body">
+          <p class="definition">'Null' is a keyword in JavaScript that signifies 'no value' or nonexistence of any value. If you wish to shred a variable off its assigned value, you can simply assign 'null' to it. Besides this, like any other object, it is never implicitly assigned to a variable by JavaScript.</p>
+        </div>
+      </div>
+      <div class="panel panel-primary">
+        <div class="flash panel-heading">
+          <h3 class="panel-title">Alert</h3>
+        </div>
+        <div class="panel-body">
+          <p class="definition">The Window.alert() method displays an alert dialog with the optional specified content and an OK button.</p>
+        </div>
+      </div>
+      <div class="panel panel-primary">
+        <div class="flash panel-heading">
+          <h3 class="panel-title">Comments</h3>
+        </div>
+        <div class="panel-body">
+          <p class="definition">Comments in JavaScript are used to explain the code and make the program more readable for developers. ... There are single-line comments (which comment out one line or a part of one line) and multi-line comments (which comment out a block of code). Multi-line comments are more often used for formal documentations.</p>
+        </div>
+      </div>
+      <div class="panel panel-primary">
+        <div class="flash panel-heading">
+          <h3 class="panel-title">jQuery</h3>
+        </div>
+        <div class="panel-body">
+          <p class="definition">jQuery is a JavaScript library that allows web developers to add extra functionality to their websites. It is open source and provided for free under the MIT license. In recent years, jQuery has become the most popular JavaScript library used in web development.</p>
+        </div>
+      </div>
+      <div class="panel panel-primary">
+        <div class="flash panel-heading">
+          <h3 class="panel-title">Attibutes</h3>
+        </div>
+        <div class="panel-body">
+          <p class="definition">All properties have a name. In addition they also have a value. The value is one of the property's attributes. ... In JavaScript, all attributes can be read, but only the value attribute can be changed (and only if the property is writable).</p>
+        </div>
+      </div>
     </div>
   </div>
 </body>
